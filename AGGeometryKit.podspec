@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'Core' do |ss|
-        ss.frameworks    = 'SystemConfiguration', 'IOKit', 'CoreGraphics', 'UIKit', 'QuartzCore'
+        ss.frameworks    = 'SystemConfiguration', 'CoreGraphics', 'UIKit', 'QuartzCore'
         ss.source_files        = 'Source/**/*.{h,m}'
         ss.exclude_files       = 'Source/**/*Test.{h,m}'  
     end
